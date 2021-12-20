@@ -1,0 +1,300 @@
+[
+  {
+    "id": 1405,
+    "annotations": [
+      {
+        "id": 5,
+        "completed_by": {
+          "id": 1,
+          "email": "christoph.alt@posteo.de",
+          "first_name": "Christoph",
+          "last_name": "Alt"
+        },
+        "result": [
+          {
+            "id": "plXcBFMN4R",
+            "type": "labels",
+            "value": {
+              "end": 275,
+              "text": "\"Jeder Einzelne kann seinen Beitrag leisten, dass diese dritte Welle möglichst effektiv so lang wie möglich eingedämmt wird\"",
+              "start": 151,
+              "labels": [
+                "DIRECT-QUOTE"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Hv7C45Kq4-",
+            "type": "labels",
+            "value": {
+              "end": 387,
+              "text": "\"Jeder kann sich selbst schützen. Und jeder schützt dadurch auch den anderen.\"",
+              "start": 309,
+              "labels": [
+                "DIRECT-QUOTE"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ATNrtXdmE5",
+            "type": "labels",
+            "value": {
+              "end": 286,
+              "text": "sie",
+              "start": 283,
+              "labels": [
+                "SPEAKER"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "type": "relation",
+            "to_id": "ATNrtXdmE5",
+            "labels": [
+              "quotee"
+            ],
+            "from_id": "plXcBFMN4R",
+            "direction": "right"
+          },
+          {
+            "type": "relation",
+            "to_id": "ATNrtXdmE5",
+            "labels": [
+              "quotee"
+            ],
+            "from_id": "Hv7C45Kq4-",
+            "direction": "right"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-10-06T12:20:44.858808Z",
+        "updated_at": "2021-10-06T12:21:25.148638Z",
+        "lead_time": 7632.388,
+        "prediction": {},
+        "result_count": 0,
+        "task": 1405
+      },
+      {
+        "id": 39,
+        "completed_by": {
+          "id": 2,
+          "email": "alan.akbik@gmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "id": "plXcBFMN4R",
+            "type": "labels",
+            "value": {
+              "end": 275,
+              "text": "\"Jeder Einzelne kann seinen Beitrag leisten, dass diese dritte Welle möglichst effektiv so lang wie möglich eingedämmt wird\"",
+              "start": 151,
+              "labels": [
+                "DIRECT-QUOTE"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Hv7C45Kq4-",
+            "type": "labels",
+            "value": {
+              "end": 387,
+              "text": "\"Jeder kann sich selbst schützen. Und jeder schützt dadurch auch den anderen.\"",
+              "start": 309,
+              "labels": [
+                "DIRECT-QUOTE"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ATNrtXdmE5",
+            "type": "labels",
+            "value": {
+              "end": 286,
+              "text": "sie",
+              "start": 283,
+              "labels": [
+                "SPEAKER"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "type": "relation",
+            "to_id": "ATNrtXdmE5",
+            "labels": [
+              "quotee"
+            ],
+            "from_id": "plXcBFMN4R",
+            "direction": "right"
+          },
+          {
+            "type": "relation",
+            "to_id": "ATNrtXdmE5",
+            "labels": [
+              "quotee"
+            ],
+            "from_id": "Hv7C45Kq4-",
+            "direction": "right"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-10-11T08:18:58.783187Z",
+        "updated_at": "2021-10-11T08:18:58.783203Z",
+        "lead_time": 14.628,
+        "prediction": {},
+        "result_count": 0,
+        "task": 1405
+      }
+    ],
+    "predictions": [],
+    "file_upload": "2a0596bd-examples.json",
+    "data": {
+      "text": "BioNTech-Gründerin Özlem Türeci hat die Menschen in Deutschland dazu aufgerufen, sich gemeinsam gegen die dritte Welle der Corona-Pandemie zu stemmen. \"Jeder Einzelne kann seinen Beitrag leisten, dass diese dritte Welle möglichst effektiv so lang wie möglich eingedämmt wird\", sagte sie bei der Auszeichnung. \"Jeder kann sich selbst schützen. Und jeder schützt dadurch auch den anderen.\""
+    },
+    "meta": {},
+    "created_at": "2021-10-06T12:18:34.119291Z",
+    "updated_at": "2021-10-06T12:21:25.113357Z",
+    "project": 3
+  },
+  {
+    "id": 1417,
+    "annotations": [
+      {
+        "id": 17,
+        "completed_by": {
+          "id": 1,
+          "email": "christoph.alt@posteo.de",
+          "first_name": "Christoph",
+          "last_name": "Alt"
+        },
+        "result": [
+          {
+            "id": "4ECxiDjxZf",
+            "type": "labels",
+            "value": {
+              "end": 241,
+              "text": "\"ins Zentrum der Aufmerksamkeit rücken\"",
+              "start": 202,
+              "labels": [
+                "DIRECT-QUOTE"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "6QTVOEMgTa",
+            "type": "labels",
+            "value": {
+              "end": 201,
+              "text": "Grün-Rot",
+              "start": 193,
+              "labels": [
+                "SPEAKER"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "type": "relation",
+            "to_id": "6QTVOEMgTa",
+            "labels": [
+              "quotee"
+            ],
+            "from_id": "4ECxiDjxZf",
+            "direction": "right"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-10-06T12:29:32.170744Z",
+        "updated_at": "2021-10-06T12:29:32.170760Z",
+        "lead_time": 23.047,
+        "prediction": {},
+        "result_count": 0,
+        "task": 1417
+      },
+      {
+        "id": 51,
+        "completed_by": {
+          "id": 2,
+          "email": "alan.akbik@gmail.com",
+          "first_name": "",
+          "last_name": ""
+        },
+        "result": [
+          {
+            "id": "4ECxiDjxZf",
+            "type": "labels",
+            "value": {
+              "end": 241,
+              "text": "\"ins Zentrum der Aufmerksamkeit rücken\"",
+              "start": 202,
+              "labels": [
+                "DIRECT-QUOTE"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "6QTVOEMgTa",
+            "type": "labels",
+            "value": {
+              "end": 201,
+              "text": "Grün-Rot",
+              "start": 193,
+              "labels": [
+                "SPEAKER"
+              ]
+            },
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "type": "relation",
+            "to_id": "6QTVOEMgTa",
+            "labels": [
+              "quotee"
+            ],
+            "from_id": "4ECxiDjxZf",
+            "direction": "right"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2021-10-11T08:23:34.520019Z",
+        "updated_at": "2021-10-11T08:23:34.520037Z",
+        "lead_time": 0.806,
+        "prediction": {},
+        "result_count": 0,
+        "task": 1417
+      }
+    ],
+    "predictions": [],
+    "file_upload": "2a0596bd-examples.json",
+    "data": {
+      "text": "Auf Initiative der Koalition beschloss der Stadtrat, mobile Impfteams in besonders betroffene Quartiere zu schicken. Straßen und Gebiete, in denen Menschen besonders beengt leben, müssten laut Grün-Rot \"ins Zentrum der Aufmerksamkeit rücken\"."
+    },
+    "meta": {},
+    "created_at": "2021-10-06T12:18:34.119601Z",
+    "updated_at": "2021-10-06T12:18:34.119606Z",
+    "project": 3
+  }
+]
