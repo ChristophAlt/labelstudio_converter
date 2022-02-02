@@ -1,7 +1,7 @@
 import os
 from test import FIXTURES_ROOT
 
-from anno_converter.dataset_readers.labelstudio_json import LabelStudioJsonReader
+from labelstudio_converter.dataset_readers.labelstudio_json import LabelStudioJsonReader
 
 
 def test_read_labelstudio_json():
