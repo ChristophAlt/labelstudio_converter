@@ -3,7 +3,7 @@ from typing import List
 from segtok.segmenter import split_single
 from segtok.tokenizer import split_contractions, word_tokenizer
 
-from anno_converter.tokenizers.tokenizer import Token, Tokenizer
+from labelstudio_converter.tokenizers.tokenizer import Token, Tokenizer
 
 
 # Implementation based on https://github.com/flairNLP/flair/blob/master/flair/tokenization.py

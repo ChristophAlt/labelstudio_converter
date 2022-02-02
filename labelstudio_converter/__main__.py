@@ -2,7 +2,7 @@ import argparse
 import logging
 import os
 
-from anno_converter.convert import convert_file
+from labelstudio_converter.convert import convert_file
 
 parser = argparse.ArgumentParser()  # pylint: disable=invalid-name
 parser.add_argument(

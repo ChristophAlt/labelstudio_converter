@@ -3,9 +3,9 @@ from typing import Dict, List, Tuple
 
 import conllu
 
-from anno_converter.dataset_writers.dataset_writer import DatasetWriter
-from anno_converter.document import BinaryRelation, Document, LabeledSpan
-from anno_converter.tokenizers.tokenizer import Tokenizer
+from labelstudio_converter.dataset_writers.dataset_writer import DatasetWriter
+from labelstudio_converter.document import BinaryRelation, Document, LabeledSpan
+from labelstudio_converter.tokenizers.tokenizer import Tokenizer
 
 
 def char_to_token_span(start_char: int, end_char: int, token_starts: List[int]) -> Tuple[int, int]:

@@ -1,6 +1,6 @@
-from anno_converter.dataset_readers.labelstudio_json import LabelStudioJsonReader
-from anno_converter.dataset_writers.flair_conllu import FlairConlluDatasetWriter
-from anno_converter.tokenizers.segtok import SegtokTokenizer
+from labelstudio_converter.dataset_readers.labelstudio_json import LabelStudioJsonReader
+from labelstudio_converter.dataset_writers.flair_conllu import FlairConlluDatasetWriter
+from labelstudio_converter.tokenizers.segtok import SegtokTokenizer
 
 
 def convert_file(

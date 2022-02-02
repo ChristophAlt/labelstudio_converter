@@ -1,8 +1,8 @@
 import json
-from typing import Any, Dict, List, Optional
+from typing import Dict, List, Optional
 
-from anno_converter.dataset_readers.dataset_reader import DatasetReader
-from anno_converter.document import BinaryRelation, Document, LabeledSpan
+from labelstudio_converter.dataset_readers.dataset_reader import DatasetReader
+from labelstudio_converter.document import BinaryRelation, Document, LabeledSpan
 
 
 class LabelStudioJsonReader(DatasetReader):
