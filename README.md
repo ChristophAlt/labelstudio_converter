@@ -1,6 +1,19 @@
 # Labelstudio Converter
 
-## Setup
+## 🚀&nbsp;&nbsp;Quickstart
+
+```sh
+pip install git+ssh://git@github.com/ChristophAlt/labelstudio_converter.git
+```
+
+```sh
+python labelstudio_converter \
+    --input-file <INPUT FILE> \
+    --output-file <OUTPUT FILE> \
+    --output-format flair_conllu
+```
+
+## Development
 ```sh
 # Install dependencies
 pipenv install --dev

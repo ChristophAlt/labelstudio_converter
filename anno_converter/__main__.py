@@ -1,5 +1,6 @@
 import argparse
 import logging
+import os
 
 from anno_converter.convert import convert_file
 
@@ -17,24 +18,11 @@ parser.add_argument(
     help="path to store the converted dataset",
 )
 parser.add_argument(
-    "--input-format",
-    required=True,
-    type=str,
-    choices=["labelstudio_json"],
-    help="format of the input dataset",
-)
-parser.add_argument(
     "--output-format",
     type=str,
-    default="flair_conll",
-    choices=["flair_conll"],
+    default="flair_conllu",
+    choices=["flair_conllu"],
     help="format the annotated dataset is stored",
-)
-parser.add_argument(
-    "--n-jobs",
-    type=int,
-    default=1,
-    help="the number of request jobs to run in parallel",
 )
 parser.add_argument(
     "--debug",
@@ -50,13 +38,13 @@ def main():
     log_level = logging.DEBUG if args.debug else logging.INFO
     logging.basicConfig(format="%(asctime)s - %(levelname)s - %(name)s - %(message)s", level=log_level)
 
+    if not os.path.exists(args.input_file):
+        raise FileNotFoundError("input file '{}' does not exist.".format(args.input_file))
+
     convert_file(
         input_file=args.input_file,
         output_file=args.output_file,
-        input_format=args.input_format,
         output_format=args.output_format,
-        n_jobs=args.n_jobs,
-        debug=args.debug,
     )
 
 
