@@ -1,14 +1,17 @@
 # Labelstudio Converter
+Convert exported Label Studio annotation JSON files to different format(s).
 
 ## 🚀&nbsp;&nbsp;Quickstart
 
+Install the package:
 ```sh
 pip install git+ssh://git@github.com/ChristophAlt/labelstudio_converter.git
 ```
 
+Convert the annotation JSON file with the following command:
 ```sh
 python labelstudio_converter \
-    --input-file <INPUT FILE> \
+    --input-file <ANNOTATION JSON FILE> \
     --output-file <OUTPUT FILE> \
     --output-format flair_conllu
 ```
